@@ -1,0 +1,20 @@
+## Homework
+# Write a script that:
+# - Declares a string variable `favorite_food`, an integer variable `quantity`, and a float variable `price`.
+# - Changes `favorite_food` to a different food item.
+# - Prints all variables before and after the changes
+
+#Before
+
+Favorite_Food = input("Enter Favorite Food:")
+Quantity = int(input("Enter Quantity:"))
+Price = float(input("Enter Price:")) 
+
+print(Favorite_Food,Quantity,Price)
+
+#After
+
+Favorite_Food = input("Enter New Favorite Food:")
+
+print("After Changes:")
+print(Favorite_Food, Quantity,Price)
